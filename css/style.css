@@ -13,26 +13,37 @@ body {
 
 .main-nav li {
     list-style: none;
-    padding: 1em;
+    padding: 0.5em;
     
 
 }
 /* CONTAINERS */
-.name, .main-nav {
-    display: inline-flex;
+
     
 }
 /* NAVIGATION */
-.picture {
-    display: inline-block;
-    float: right;
-}
+
 
 /* Media Queries */
 
 @media (min-width: 769px) {
     body {
-width: 80%;
-margin-right: auto;
+
     }
+}
+
+@media (min-width: 1024px) {
+.container {
+    padding: 0 20px;
+}
+
+    .name, .main-nav {
+        display: inline-flex;
+        justify-content: space-between;
+        
+    }
+        .picture {
+            display: inline-block;
+            float: right;
+        }
 }
