@@ -1,0 +1,23 @@
+* {
+
+}
+
+/* BASE STYLES */
+
+body {
+
+}
+/* CONTAINERS */
+.name, .main-nav {
+    display: inline-block;
+}
+/* NAVIGATION */
+.picture {
+    display: inline-block;
+}
+/* Media Queries */
+
+@media (min-width: 769px) {
+
+
+}
