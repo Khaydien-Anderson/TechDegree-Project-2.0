@@ -7,17 +7,32 @@
 body {
 
 }
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav li {
+    list-style: none;
+    padding: 1em;
+    
+
+}
 /* CONTAINERS */
 .name, .main-nav {
-    display: inline-block;
+    display: inline-flex;
+    
 }
 /* NAVIGATION */
 .picture {
     display: inline-block;
+    float: right;
 }
+
 /* Media Queries */
 
 @media (min-width: 769px) {
-
-
+    body {
+width: 80%;
+margin-right: auto;
+    }
 }
