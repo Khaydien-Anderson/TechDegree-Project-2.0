@@ -30,7 +30,9 @@ header {
 
 
 /* CONTAINERS */
-
+.portfolio {
+display: block;
+}
     
 
 /* NAVIGATION */
