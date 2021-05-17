@@ -1,26 +1,38 @@
-* {
-
+* {box-sizing: border-box;
 }
 
 /* BASE STYLES */
 
 body {
+font-family: 'Roboto Condensed', sans-serif;
+
+
 
 }
-.main-nav a {
-    text-decoration: none;
+header {
+  
 }
 
 .main-nav li {
     list-style: none;
     padding: 0.5em;
     
-
 }
+.main-nav li a {
+    text-decoration: none;
+    
+}
+.main-nav li {
+    text-decoration: none;
+}
+
+    
+
+
 /* CONTAINERS */
 
     
-}
+
 /* NAVIGATION */
 
 
@@ -39,8 +51,6 @@ body {
 
     .name, .main-nav {
         display: inline-flex;
-        justify-content: space-between;
-        
     }
         .picture {
             display: inline-block;
