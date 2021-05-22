@@ -48,6 +48,7 @@ background-color: #F5F5F5;
     background-color: white;
     border-style: solid;
     border-color: #F5F5F5;
+    color: grey;
 
 }
 .main-nav li a {
@@ -81,7 +82,8 @@ padding: 10px 25px;
     background-color: white;
 }
 
-.portfolio p{
+.portfolio p
+{
     margin-bottom: 20px;
 }
 
@@ -100,8 +102,6 @@ padding: 10px 25px;
 
 .main-footer {
     width: 80%;
-    margin: 0 auto;
-    margin-left: -5px;
     height:50px;
     padding: 15px;
 }
@@ -109,6 +109,17 @@ padding: 10px 25px;
 .footer-select {
     display: inline;
 }
+
+.bottom-nav li {
+    display: none;
+    float: right;
+}
+
+.bottom-nav li a {
+text-decoration: none;
+
+}
+    
 #back-top {
   float:right;
   margin-inline-end: -80px;
@@ -120,29 +131,84 @@ background-color:white;
 }
 
 
+}
+
+
 /* Media Queries */
+
 @media (min-width: 768px) {
     .container {
         display:block;
-        padding: 0 50px;
+        padding: 0 10px;
     }
-    
-        .main-nav {
-           display: flex;
-           
-        }
-          .main-nav li {
+
+          .main-nav li  {
+              color:darkgrey;
               background-color:#F5F5F5;;
           }
 
           #back-top {
-              
+              display: none;
           }
+          .bottom-nav {
+              justify-content: space-between;
+          }
+
+          .bottom-nav li {
+                display: initial;
+                flex-flow: row;
+                
+          }
+
+        .bottom-nav li a {
+            text-decoration: none;
+        }
+        }
+/* media queries */
+
+@media (min-width: 768px) {
+    .container {
+        display: block;
+        padding: 10px 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+        .main-nav ul {
+            display: flex;
+            margin: auto;
+            
+        }
+          .main-nav li {
+            display: inline;
+            background-color:#F5F5F5;
+            padding: 0px 50px;
+          }
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .intro p {
+        float: left;
+    }
+          #back-top {
+              display: none;
+          }
+
+.bottom-nav li {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
 
 @media (min-width: 1024px) {
 .container {
 width: 100%;
     justify-content: space-between;
+}
+
+.name {
+    float:left;
 }
 
     .main-nav, .name {
@@ -156,5 +222,3 @@ width: 100%;
     padding-top: 25px;
 }
 
-
-}
