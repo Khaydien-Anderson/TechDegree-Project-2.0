@@ -11,8 +11,7 @@ font-family: 'Roboto Condensed', sans-serif;
 background-color: #F5F5F5;
 }
 .name {
-  text-align: center;
-  margin-top: 30px;
+    text-align: center;
 }
 .intro-picture {
     width: 250px;
@@ -113,43 +112,49 @@ padding: 10px 25px;
 #back-top {
   float:right;
   margin-inline-end: -80px;
+  text-decoration: none;
 }
 
 #portfolio-id {
 background-color:white;
 }
 
-}
+
 /* Media Queries */
-
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .container {
-height: 200px;
+        display:block;
+        padding: 0 50px;
     }
+    
+        .main-nav {
+           display: flex;
+           
+        }
+          .main-nav li {
+              background-color:#F5F5F5;;
+          }
 
-    .main-nav {
-margin-top: 0px;
-    }
-
-    #back-top {
-        display: inline;
-        flex-direction: row;
-        ;
-    }
-}
+          #back-top {
+              
+          }
 
 @media (min-width: 1024px) {
 .container {
-    
-    padding: 0 20px;
+width: 100%;
     justify-content: space-between;
 }
 
-    .name, .main-nav {
-        display: inline-flex;
+    .main-nav, .name {
+        display:inline-flex;
+        padding: 0 50px;
+        justify-content: space-between;
     }
-        .picture {
-            display: inline-block;
-            float: right;
-        }
+
+.main-nav {
+    float: right;
+    padding-top: 25px;
+}
+
+
 }
