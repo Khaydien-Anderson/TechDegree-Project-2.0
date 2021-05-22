@@ -14,12 +14,20 @@ background-color: #F5F5F5;
   text-align: center;
   margin-top: 30px;
 }
-.picture {
+.intro-picture {
     width: 250px;
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
+
+}
+.picture {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
 } 
+
 
 .container {
     width: 80%;
@@ -55,8 +63,9 @@ display: block;
 }
 
 p {
+    font-size: 1.15em;
 text-align: center;
-padding: 10px 20px;
+padding: 10px 25px;
 }
 
 .title {
@@ -65,9 +74,16 @@ padding: 10px 20px;
     margin-bottom: 20px;
 }
 
+
+
+}
 .portfolio {
     margin-bottom: 20px;
     background-color: white;
+}
+
+.portfolio p{
+    margin-bottom: 20px;
 }
 
 .portitle {
@@ -75,15 +91,20 @@ padding: 10px 20px;
 }
 
 .contact {
-    background-color: #F5F5F5;
+    background-color: #grey;
+    margin: 20px;
+}
+.contact p {
+    line-height: 1.5
+    ;
 }
 
 .main-footer {
     width: 80%;
     margin: 0 auto;
-    
+    margin-left: -5px;
     height:50px;
-    padding: 30px;
+    padding: 15px;
 }
 
 .footer-select {
@@ -91,11 +112,11 @@ padding: 10px 20px;
 }
 #back-top {
   float:right;
+  margin-inline-end: -80px;
 }
 
 #portfolio-id {
-
-    
+background-color:white;
 }
 
 }
