@@ -66,23 +66,32 @@ padding: 10px 20px;
 
 .portfolio {
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .portitle {
     text-align: center;
 }
 
+.contact {
+    background-color: #F5F5F5;
+}
 
-/* CONTAINERS */
-.portfolio {
+.main-footer {
+    flex-direction: row;
+    height:100px;
+    padding-top: 20px;
+}
+
+.footer-select {
+    display: inline;
+}
+#back-top {
+  float:right;
+}
 
 
 }
-    
-
-/* NAVIGATION */
-
-
 /* Media Queries */
 
 @media (min-width: 769px) {
@@ -92,7 +101,12 @@ height: 200px;
 
     .main-nav {
 margin-top: 0px;
+    }
 
+    #back-top {
+        display: inline;
+        flex-direction: row;
+        ;
     }
 }
 
