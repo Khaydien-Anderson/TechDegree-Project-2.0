@@ -60,7 +60,7 @@ p {
 	padding: 20px;
 	margin-bottom: 20px;
 }
-}
+
 .portfolio {
 margin-bottom: 20px;
 background-color: white;
@@ -105,14 +105,14 @@ background-color:white;
 }
 
 
-}
+
 
 
 
 
 
 /* Media Queries */
-@media (min-width: 768px) {
+
 
 .portfolio {
 display: flex;
@@ -141,7 +141,7 @@ text-decoration: none;
 }
 
 
-}
+
 /* media queries */
 @media (min-width: 768px) {
 .container {
@@ -160,7 +160,7 @@ background-color:#F5F5F5;
 padding: 0px 50px;
 color:darkgrey;
 }
-}
+
 .bottom-nav li {
 display:inline-flex;
 margin-top: -15px;
@@ -175,7 +175,7 @@ padding: 20px;
     display: none;
 }
 
-
+}
 @media (min-width: 1024px) {
 .container {
 width: 100%;
@@ -196,4 +196,5 @@ padding-top: 25px;
 
 #back-top {
     display: none;
+}
 }
