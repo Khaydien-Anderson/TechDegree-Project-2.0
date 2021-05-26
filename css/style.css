@@ -18,12 +18,7 @@ body {
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
-.picture {
-	width: 80%;
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 30px;
-}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -67,7 +62,7 @@ header p, main p {
 margin-bottom: 20px;
 background-color: white;
 }
-.portfolio p{
+.portfolio p {
 margin-bottom: 20px;
 }
 .portitle {
@@ -98,9 +93,7 @@ text-decoration: none;
 padding: 0 10px;
 }
 
-#portfolio-id {
-background-color:white;
-}
+
 
 
 
@@ -171,9 +164,39 @@ color:darkgrey;
 	display: flex;
 	flex-direction: row-reverse;
 	}
+
 	.intro p {
 	float: left;
+	padding: 0 60px;
 	}
+
+
+	.portfolio {
+		width: 100%;
+		display: inline-flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		
+	}
+
+	.pics {
+		width: 40%;
+		flex-wrap: wrap;
+		
+		padding: 10px 10px;
+	}
+
+	.portfolio p {
+		width: 40%;
+		flex: 1;
+	}
+
+	.portitle {
+	
+	}
+
+
+
 
 .bottom-nav li {
 display:inline-flex;
