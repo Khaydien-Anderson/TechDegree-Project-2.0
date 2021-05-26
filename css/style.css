@@ -8,6 +8,7 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: #F5F5F5;
 	min-width: 300px;
+
 }
 .name {
 	text-align: center;
@@ -26,8 +27,9 @@ body {
 }
 .intro {
 	
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
+
 .main-nav li {
 	list-style: none;
 	margin: 0 auto;
@@ -55,19 +57,21 @@ header p, main p {
 .title {
 	text-align: center;
 	padding: 20px;
-	margin-bottom: 20px;
+	
+}
+.portfolio-container {
+	display:block;
+	background-color: white;
 }
 
 .portfolio {
+	
+	padding: 15px;
 margin-bottom: 20px;
 background-color: white;
 }
-.portfolio p {
-margin-bottom: 20px;
-}
-.portitle {
-text-align: center;
-}
+
+
 .contact {
 background-color: #grey;
 margin: 20px;
@@ -93,6 +97,10 @@ text-decoration: none;
 padding: 0 10px;
 }
 
+
+.portitle {
+	text-align: center;
+}
 
 
 
@@ -121,7 +129,7 @@ display: inline-block;
 .main-footer a {
 	text-decoration: none;
 	float: right;
-	margin-top: -18px;
+	
 	color: black;
 }
 
@@ -130,12 +138,14 @@ display: inline-block;
 	text-decoration: none;
 	}
 
-.pics {
-	width: 80%;
-	margin: 0 auto;
-	margin-bottom: 30px;
+	.pics {
+		width: 100%;
+		flex-wrap: wrap;
+		padding: 10px 10px;
+		margin: 0 auto;
+	}
 
-}
+
 
 .bottom-nav li a {
 text-decoration: none;
@@ -145,6 +155,7 @@ text-decoration: none;
 
 /* media queries */
 @media (min-width: 768px) {
+
 .container {
 display: block;
 padding: 10px 50px;
@@ -163,40 +174,59 @@ color:darkgrey;
 }
 
 .intro {
+	width: 90%;
 	display: flex;
 	flex-direction: row-reverse;
+	margin: 0 auto;
 	}
+
+	
 
 	.intro p {
 	float: left;
-	padding: 0 60px;
+	
 	}
 
+	.portfolio-container {
+	display: block;
+	flex-wrap: wrap;
+		background-color: white;
+	}
 
 	.portfolio {
-		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
 		flex-direction: row;
+		
+	
 		
 	}
 	.cards {
-		display: block;
+		width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 	}
+
+	
 
 	.pics {
-		width: 40%;
+		width: 100%;
 		flex-wrap: wrap;
-		
 		padding: 10px 10px;
+		margin: 0 auto;
 	}
 
-	.portfolio p {
-		width: 40%;
-		flex: 1;
+	h3 {
+		margin: 0 auto;
 	}
 
-	.portitle {
-	
+	.main-footer .backtotop {
+		display: none;
 	}
+
+
+
 
 
 
@@ -217,6 +247,10 @@ padding: 20px;
 
 }
 @media (min-width: 1024px) {
+
+	header {
+
+	}
 .container {
 width: 100%;
 justify-content: space-between;
@@ -226,7 +260,7 @@ float:left;
 }
 .main-nav, .name {
 display:inline-flex;
-padding: 0 50px;
+padding: 0 45px;
 justify-content: space-between;
 }
 .main-nav {
@@ -234,7 +268,32 @@ float: right;
 padding-top: 25px;
 }
 
+.intro p {
+	float: left;
+	text-align: left;
+	width: 50%;
+	
+}
+
+.intro-picture {
+	width: 40%;
+}
+
+.portfolio-container {
+	width: 90%;
+	margin: 0 auto;
+}
 #back-top {
     display: none;
+}
+
+.cards {
+width: 33%;
+
+}
+
+.contact p {
+	width: 50%;
+	margin: 0 auto;
 }
 }
