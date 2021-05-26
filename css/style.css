@@ -105,6 +105,7 @@ padding: 0 10px;
 
 .portfolio {
 display: flex;
+flex-wrap: wrap;
 flex-direction: column;
 }
 
@@ -133,9 +134,7 @@ display: inline-block;
 	width: 80%;
 	margin: 0 auto;
 	margin-bottom: 30px;
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
+
 }
 
 .bottom-nav li a {
@@ -176,9 +175,8 @@ color:darkgrey;
 
 	.portfolio {
 		width: 100%;
-		display: inline-flex;
-		flex-wrap: wrap;
-		flex-direction: column;
+		flex-direction: row;
+		
 	}
 	.cards {
 		display: block;
