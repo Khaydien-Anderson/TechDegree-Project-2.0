@@ -129,7 +129,10 @@ display: inline-block;
 	text-decoration: none;
 	}
 
-.picture {
+.pics {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
@@ -176,7 +179,9 @@ color:darkgrey;
 		display: inline-flex;
 		flex-wrap: wrap;
 		flex-direction: column;
-		
+	}
+	.cards {
+		display: block;
 	}
 
 	.pics {
