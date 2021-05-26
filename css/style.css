@@ -11,7 +11,9 @@ body {
 
 }
 .name {
+	font-family: 'Mate SC', sans-serif;
 	text-align: center;
+	
 }
 .intro-picture {
 	width: 50%;
@@ -73,7 +75,7 @@ background-color: white;
 
 
 .contact {
-background-color: #grey;
+background-color: rgb(199, 196, 196);
 margin: 20px;
 }
 .contact p {
@@ -100,14 +102,38 @@ padding: 0 10px;
 
 .portitle {
 	text-align: center;
+	color: midnightblue;
+}
+
+.main-nav a:hover, .bottom-nav a:hover  {
+	color:tan;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 20px 0;
+	background-color: whitesmoke;
+	
+	margin: 0 auto;
+}
+
+.skills h2 {
+	text-align: center;
+	order: 0;
+}
+.skills p {
+	width: 80%;
+margin: 0 auto;
 }
 
 
 
-
-
-
-
+.studio {
+	width: 70%;
+	margin: 0 auto;
+}
 
 
 
@@ -127,16 +153,12 @@ display: inline-block;
 }
 
 .main-footer a {
-	text-decoration: none;
+	text-decoration: tan;
 	float: right;
 	
 	color: black;
 }
 
-#back-top {
-	align-self: right;
-	text-decoration: none;
-	}
 
 	.pics {
 		width: 100%;
@@ -149,6 +171,15 @@ display: inline-block;
 
 .bottom-nav li a {
 text-decoration: none;
+}
+
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact a:hover {
+color: tan;
 }
 
 
@@ -226,7 +257,9 @@ color:darkgrey;
 	}
 
 
-
+.skills p {
+	padding: 20px 100px;
+}
 
 
 
@@ -241,9 +274,6 @@ flex-flow: row;
 padding: 20px;
 }
 
-#back-top {
-    display: none;
-}
 
 }
 @media (min-width: 1024px) {
